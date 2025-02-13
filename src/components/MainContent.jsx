@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Card.jsx'
 
 const MainContent = () => {
   return (
@@ -12,10 +13,10 @@ const MainContent = () => {
                 className='text-medium text-xl mb-25'
             >All in one place to inquire and book table in best restaurants around the city 
             </h4>  
-            <div className='flex justify-around w-full text-center'>
-                <div className='w-1/2 px-2 py-2 hover:bg-emerald-600 transition duration-300 hover:text-white rounded-md border-r-3 group'>
+            <div className='flex justify-around w-full text-center gap-0.5'>
+                <Card>
                     <h1 
-                        className='text-2xl font-semibold '
+                        className='text-2xl font-semibold'
                     >Find Restaurants 
                     </h1>
                     <h3 className='mb-2'>
@@ -24,8 +25,8 @@ const MainContent = () => {
                     <button className='px-3 py-2 hover:bg-white hover:text-emerald-600  rounded-md opacity-0 group-hover:opacity-100 w-1/2 font-semibold cursor-pointer'>
                         Discover
                     </button>
-                </div>
-                <div className = 'px-2 py-2 w-1/2  hover:bg-emerald-600 transition duration-300 hover:text-white rounded-md border-l-3 group'>
+                </Card>
+                <Card>
                     <h1
                         className='text-2xl font-semibold text-center'
                     >Add Restaurant
@@ -36,7 +37,7 @@ const MainContent = () => {
                     <button className='px-3 py-2 hover:bg-white hover:text-emerald-600 rounded-md opacity-0 group-hover:opacity-100 w-1/2 font-semibold cursor-pointer'>
                         Add Restaurant
                     </button>
-                </div>
+                </Card>
                 
             </div> 
         </div>
