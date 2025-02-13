@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "name": "La Bella Vita",
+      "location": "123 King St W, Toronto",
+      "rating": 4.8,
+      "capacity": 50,
+      "theme": "Italian",
+      "description": "A charming Italian bistro offering handmade pasta and a cozy ambiance reminiscent of Tuscany."
+    },
+    {
+      "id": 2,
+      "name": "Le Petit Bistro",
+      "location": "456 Queen St E, Toronto",
+      "rating": 4.6,
+      "capacity": 40,
+      "theme": "French",
+      "description": "An intimate Parisian-style café serving classic French cuisine with a modern twist."
+    },
+    {
+      "id": 3,
+      "name": "Everest Spice",
+      "location": "789 Bloor St W, Toronto",
+      "rating": 4.7,
+      "capacity": 55,
+      "theme": "Nepali",
+      "description": "Authentic Himalayan flavors with momos, dal bhat, and traditional Nepalese hospitality."
+    },
+    {
+      "id": 4,
+      "name": "Sakura Sushi",
+      "location": "234 Dundas St W, Toronto",
+      "rating": 4.5,
+      "capacity": 60,
+      "theme": "Japanese",
+      "description": "Fresh sushi, sashimi, and ramen in a modern setting with an elegant Japanese aesthetic."
+    },
+    {
+      "id": 5,
+      "name": "El Ranchero",
+      "location": "567 Spadina Ave, Toronto",
+      "rating": 4.4,
+      "capacity": 45,
+      "theme": "Mexican",
+      "description": "A vibrant cantina with sizzling fajitas, tacos, and handcrafted margaritas."
+    },
+    {
+      "id": 6,
+      "name": "Taste of Mumbai",
+      "location": "890 Yonge St, Toronto",
+      "rating": 4.9,
+      "capacity": 70,
+      "theme": "Indian",
+      "description": "A fusion of rich spices and flavors, featuring authentic Indian curries and naan."
+    },
+    {
+      "id": 7,
+      "name": "Himalayan Delight",
+      "location": "321 College St, Toronto",
+      "rating": 4.7,
+      "capacity": 50,
+      "theme": "Tibetan",
+      "description": "Serving traditional Tibetan cuisine with hearty thukpa and delicious momo dumplings."
+    },
+    {
+      "id": 8,
+      "name": "The Greek Tavern",
+      "location": "654 Bay St, Toronto",
+      "rating": 4.6,
+      "capacity": 55,
+      "theme": "Greek",
+      "description": "Enjoy fresh Mediterranean flavors with souvlaki, gyros, and homemade baklava."
+    },
+    {
+      "id": 9,
+      "name": "Casa de Tapas",
+      "location": "987 Front St W, Toronto",
+      "rating": 4.5,
+      "capacity": 65,
+      "theme": "Spanish",
+      "description": "A lively tapas bar offering delicious Spanish small plates and fine wines."
+    },
+    {
+      "id": 10,
+      "name": "Seoul Garden",
+      "location": "111 Richmond St E, Toronto",
+      "rating": 4.8,
+      "capacity": 60,
+      "theme": "Korean",
+      "description": "A cozy spot for authentic Korean BBQ, bibimbap, and spicy kimchi stew."
+    },
+    {
+      "id": 11,
+      "name": "Pho Saigon",
+      "location": "222 Bathurst St, Toronto",
+      "rating": 4.7,
+      "capacity": 45,
+      "theme": "Vietnamese",
+      "description": "A hidden gem specializing in flavorful pho and crispy banh mi sandwiches."
+    },
+    {
+      "id": 12,
+      "name": "Marrakech Magic",
+      "location": "333 Adelaide St W, Toronto",
+      "rating": 4.6,
+      "capacity": 50,
+      "theme": "Moroccan",
+      "description": "A mystical Moroccan escape featuring slow-cooked tagines and aromatic mint tea."
+    },
+    {
+      "id": 13,
+      "name": "Berlin Bratwurst",
+      "location": "444 Parliament St, Toronto",
+      "rating": 4.4,
+      "capacity": 48,
+      "theme": "German",
+      "description": "A lively beer hall serving authentic bratwurst, schnitzel, and craft German beers."
+    },
+    {
+      "id": 14,
+      "name": "Peruvian Paradise",
+      "location": "555 Queen St W, Toronto",
+      "rating": 4.9,
+      "capacity": 70,
+      "theme": "Peruvian",
+      "description": "A taste of the Andes with ceviche, lomo saltado, and pisco sours."
+    },
+    {
+      "id": 15,
+      "name": "Nordic Feast",
+      "location": "666 Jarvis St, Toronto",
+      "rating": 4.7,
+      "capacity": 60,
+      "theme": "Scandinavian",
+      "description": "Minimalist yet flavorful dishes inspired by the forests and fjords of Scandinavia."
+    },
+    {
+      "id": 16,
+      "name": "Cuban Flavors",
+      "location": "777 Danforth Ave, Toronto",
+      "rating": 4.6,
+      "capacity": 55,
+      "theme": "Cuban",
+      "description": "A lively Cuban eatery with delicious ropa vieja and mojitos."
+    },
+    {
+      "id": 17,
+      "name": "Thai Orchid",
+      "location": "888 Ossington Ave, Toronto",
+      "rating": 4.8,
+      "capacity": 65,
+      "theme": "Thai",
+      "description": "Aromatic curries, spicy pad Thai, and refreshing Thai iced tea."
+    },
+    {
+      "id": 18,
+      "name": "Brazilian Churrasco",
+      "location": "999 St. Clair Ave W, Toronto",
+      "rating": 4.9,
+      "capacity": 75,
+      "theme": "Brazilian",
+      "description": "An authentic churrascaria with an all-you-can-eat selection of grilled meats."
+    },
+    {
+      "id": 19,
+      "name": "Ethiopian Essence",
+      "location": "1010 College St, Toronto",
+      "rating": 4.7,
+      "capacity": 50,
+      "theme": "Ethiopian",
+      "description": "Injera, spicy stews, and a traditional Ethiopian coffee ceremony."
+    },
+    {
+      "id": 20,
+      "name": "Persian Pearl",
+      "location": "1111 Eglinton Ave E, Toronto",
+      "rating": 4.5,
+      "capacity": 55,
+      "theme": "Persian",
+      "description": "A royal Persian dining experience with kebabs, saffron rice, and pomegranate stews."
+    }
+  ]
+  
