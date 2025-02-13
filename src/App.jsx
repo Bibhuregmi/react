@@ -1,13 +1,14 @@
 import React from 'react'
 import NavBar from './components/NavBar'
 import MainContent from './components/MainContent'
-import Restaurants from './components/Restaurants'
+import RestaurantsListing from './components/RestaurantsListing'
 
 const App = () => {
   return (
     <>
     <NavBar/>
     <MainContent/>
+    <RestaurantsListing />
     </>
   )
 }
