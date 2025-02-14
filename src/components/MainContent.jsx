@@ -4,7 +4,7 @@ import Card from './Card.jsx'
 const MainContent = () => {
   return (
     <>
-        <div className='flex items-center flex-col mb-5 h-svh'>
+        <div className='flex items-center flex-col mb-10 h-full'>
             <h1 
                 className='text-bold text-6xl pt-20 mb-10'
             >Make your <span className='text-emerald-600'>reservation</span> hassle free
