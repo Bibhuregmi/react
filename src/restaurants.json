@@ -1,4 +1,6 @@
-[
+{
+  "restaurants": 
+  [
     {
       "id": 1,
       "name": "La Bella Vita",
@@ -178,6 +180,15 @@
       "capacity": 55,
       "theme": "Persian",
       "description": "A royal Persian dining experience with kebabs, saffron rice, and pomegranate stews."
+    },
+    {
+      "id": 21,
+      "name": "Kathmandu Restaurant",
+      "location": "5647 Bloor St E, Toronto",
+      "rating": 4.8,
+      "capacity": 50,
+      "theme": "Nepali",
+      "description": "Best place to find Jhol Momo in city, also try thier Samosa Chat and buffet menu only on weekdays."
     }
   ]
-  
+} 
