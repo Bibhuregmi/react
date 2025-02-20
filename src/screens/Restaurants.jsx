@@ -1,9 +1,9 @@
 import React from 'react'
-import RenderRestaurants from '../components/RenderRestaurants'
+import RestaurantsListing from '../components/RestaurantsListing'
 const Restaurants = () => {
   return (
     <>
-        <h1>This will contain all the information about the restaurants</h1>
+        <RestaurantsListing /> 
     </>
   )
 }

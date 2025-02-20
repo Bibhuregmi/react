@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <>
         <MainContent /> 
-        <RestaurantsListing /> 
+        <RestaurantsListing isHome = {true} /> 
     </>
   )
 }
