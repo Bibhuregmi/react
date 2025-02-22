@@ -13,7 +13,7 @@ const router = createBrowserRouter(
       <Route index element = {<HomePage />} />
       <Route path = '/restaurants' element = {<Restaurants />}/> 
       <Route path = '/reservation' element = {<Reservation />}/> 
-      <Route path='/restaurant-description' element = {<RestaurantPage />}/>
+      <Route path='/restaurants/:id' element = {<RestaurantPage />}/>
       <Route path='*' element= {<NotFound />}></Route> 
     </Route>
   ) 
