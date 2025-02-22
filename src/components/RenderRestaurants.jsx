@@ -2,6 +2,7 @@ import React from 'react'
 import { FaStar } from 'react-icons/fa'
 import { MdChair } from "react-icons/md"
 import { MdLocationOn } from "react-icons/md"
+import { Link } from 'react-router-dom'
 
 const RenderRestaurants = ({ restaurants, children }) => {  
     return restaurants.map((restaurant) => (
@@ -16,6 +17,11 @@ const RenderRestaurants = ({ restaurants, children }) => {
                 <p className='py-2'><span className='text-yellow-700'><FaStar/>{restaurant.rating}</span></p>   
                 <p className='py-2'><MdChair/>{restaurant.capacity}</p>   
             </div>
+            <Link className='w-1/2 rounded-lg justify-center text-center block mx-auto py-2 font-bold cursor-pointer bg-emerald-600 hover:shadow-lg text-white hover:scale-105'
+                to = {`/restaurants/${restaurant.id}`}
+            >
+                Discover More  
+            </Link>
             {children}  
         </div>
     ))
