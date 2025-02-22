@@ -8,16 +8,14 @@ const NavBar = () => {
   return (
     <>  
         <div className='flex bg-emerald-600 px-6 py-6 shadow-md mb-10'>
-            <div className='flex justify-center'>
-                <NavLink to = '/'>
+                <NavLink to = '/' className = 'flex justify-center'>
                     <img
-                        className='h-auto w-auto mx-2 my-2 border-2 border-emerald-300 bg-white rounded-full px-4 py-4'
+                        className='h-12 w-auto mx-2 my-2 border-2 border-emerald-300 bg-white rounded-full px-4 py-4'
                         src = {logo}
                     >
                     </img> 
+                    <h3 className='px-2 py-2 text-2xl font-bold text-white mx-1 my-2'>ReserveIT</h3>
                 </NavLink>
-                <h3 className='px-4 py-4 text-2xl font-bold text-white'>ReserveIT</h3>
-            </div>
             <nav className='flex w-full justify-end'>
                 <NavLink  to= '/'
                     className= {linkClass}
