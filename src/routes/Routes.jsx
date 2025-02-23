@@ -4,7 +4,7 @@ import HomePage from '../screens/HomePage'
 import MainLayout from '../layout/MainLayout';
 import Restaurants from '../screens/Restaurants'
 import Reservation from '../screens/Reservation'
-import RestaurantPage from '../screens/RestaurantPage'
+import RestaurantPage, {restaurantLoader} from '../screens/RestaurantPage'
 import NotFound from '../screens/NotFound';
 
 const router = createBrowserRouter(
@@ -13,7 +13,7 @@ const router = createBrowserRouter(
       <Route index element = {<HomePage />} />
       <Route path = '/restaurants' element = {<Restaurants />}/> 
       <Route path = '/reservation' element = {<Reservation />}/> 
-      <Route path='/restaurants/:id' element = {<RestaurantPage />}/>
+      <Route path='/restaurants/:id' element = {<RestaurantPage />} loader= {restaurantLoader}/> //passing the function exported by the component to the loader parameter.
       <Route path='*' element= {<NotFound />}></Route> 
     </Route>
   ) 
