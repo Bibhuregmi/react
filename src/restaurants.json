@@ -1,194 +1,1176 @@
 {
-  "restaurants": 
-  [
+  "restaurants": [
     {
-      "id": 1,
+      "id": "1",
       "name": "La Bella Vita",
       "location": "123 King St W, Toronto",
       "rating": 4.8,
       "capacity": 50,
       "theme": "Italian",
-      "description": "A charming Italian bistro offering handmade pasta and a cozy ambiance."
+      "description": "A charming Italian bistro offering handmade pasta and a cozy ambiance. Nestled in the heart of downtown Toronto, La Bella Vita captures the essence of authentic Italian dining with its rustic brick walls, warm lighting, and the enticing aroma of fresh herbs. The restaurant features an open kitchen where guests can watch skilled pasta makers craft fresh noodles daily. The wine cellar houses an extensive collection of Italian wines, carefully curated to complement each dish. The outdoor patio, reminiscent of a Tuscan garden, provides al fresco dining during warmer months.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Bruschetta al Pomodoro",
+            "description": "Grilled artisanal bread topped with fresh tomatoes, basil, and extra virgin olive oil",
+            "price": 12.99
+          },
+          {
+            "name": "Carpaccio di Manzo",
+            "description": "Thinly sliced beef tenderloin with arugula, parmesan, and truffle oil",
+            "price": 16.99
+          },
+          {
+            "name": "Calamari Fritti",
+            "description": "Crispy fried calamari served with lemon and marinara sauce",
+            "price": 14.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Tagliatelle alla Bolognese",
+            "description": "House-made tagliatelle with traditional meat ragu",
+            "price": 24.99
+          },
+          {
+            "name": "Osso Buco alla Milanese",
+            "description": "Braised veal shank with saffron risotto",
+            "price": 34.99
+          },
+          {
+            "name": "Branzino al Forno",
+            "description": "Whole roasted Mediterranean sea bass with herbs and lemon",
+            "price": 32.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Tiramisu",
+            "description": "Classic coffee-flavored dessert with mascarpone",
+            "price": 10.99
+          },
+          {
+            "name": "Panna Cotta",
+            "description": "Vanilla bean panna cotta with berry compote",
+            "price": 9.99
+          }
+        ]
+      }
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Le Petit Bistro",
       "location": "456 Queen St E, Toronto",
       "rating": 4.6,
       "capacity": 40,
       "theme": "French",
-      "description": "An intimate Parisian-style café serving classic French cuisine with a modern twist."
+      "description": "An intimate Parisian-style café that transports diners straight to the streets of Montmartre. The interior features vintage French posters, brass fixtures, and classic bistro chairs, creating an authentic French atmosphere. The restaurant's signature zinc bar, imported from France, serves as the perfect spot for enjoying aperitifs. Each morning, the smell of freshly baked croissants and baguettes fills the air as the in-house baker prepares the day's pastries.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Soupe à l'Oignon",
+            "description": "Traditional French onion soup with gruyère cheese",
+            "price": 13.99
+          },
+          {
+            "name": "Escargots de Bourgogne",
+            "description": "Burgundy snails in garlic herb butter",
+            "price": 15.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Coq au Vin",
+            "description": "Braised chicken in red wine with pearl onions and mushrooms",
+            "price": 28.99
+          },
+          {
+            "name": "Steak Frites",
+            "description": "Pan-seared steak with hand-cut fries and béarnaise sauce",
+            "price": 32.99
+          },
+          {
+            "name": "Bouillabaisse",
+            "description": "Provençal fish stew with rouille and crusty bread",
+            "price": 34.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Crème Brûlée",
+            "description": "Classic vanilla bean custard with caramelized sugar",
+            "price": 11.99
+          },
+          {
+            "name": "Tarte Tatin",
+            "description": "Upside-down caramelized apple tart with crème fraîche",
+            "price": 10.99
+          }
+        ]
+      }
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Everest Spice",
       "location": "789 Bloor St W, Toronto",
       "rating": 4.7,
       "capacity": 55,
       "theme": "Nepali",
-      "description": "Authentic Himalayan flavors with momos, dal bhat, and traditional Nepalese hospitality."
+      "description": "A slice of the Himalayas in Toronto, Everest Spice offers an authentic journey through Nepali cuisine. The restaurant's decor features traditional prayer flags, brass sculptures, and stunning photographs of Mount Everest. The dining room, adorned with hand-carved wooden furniture and traditional Nepali artifacts, creates an immersive cultural experience. A central feature is the traditional clay oven where fresh naan and other breads are baked to order.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Vegetable Momo",
+            "description": "Steamed dumplings filled with spiced vegetables, served with tomato chutney",
+            "price": 12.99
+          },
+          {
+            "name": "Chicken Choila",
+            "description": "Grilled marinated chicken with Nepali spices and herbs",
+            "price": 14.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Dal Bhat Tarkari",
+            "description": "Traditional Nepali thali with lentils, rice, curry, and vegetables",
+            "price": 24.99
+          },
+          {
+            "name": "Himalayan Lamb Curry",
+            "description": "Slow-cooked lamb in aromatic mountain herbs and spices",
+            "price": 26.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Kheer",
+            "description": "Traditional rice pudding with cardamom and nuts",
+            "price": 8.99
+          },
+          {
+            "name": "Sikarni",
+            "description": "Sweetened yogurt with nuts, fruits, and honey",
+            "price": 9.99
+          }
+        ]
+      }
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Sakura Sushi",
       "location": "234 Dundas St W, Toronto",
       "rating": 4.5,
       "capacity": 60,
       "theme": "Japanese",
-      "description": "Fresh sushi, sashimi, and ramen in a modern setting with an elegant Japanese aesthetic."
+      "description": "Step into the serene world of Japanese dining at Sakura Sushi, where traditional craftsmanship meets modern elegance. The minimalist interior features natural wood elements, shoji screens, and a stunning sushi bar where master chefs showcase their artistry. Private tatami rooms offer an authentic dining experience, while the main dining area provides a perfect view of the sushi masters at work. The restaurant's centerpiece is a beautiful cherry blossom installation that changes with the seasons.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Edamame",
+            "description": "Steamed young soybeans with sea salt",
+            "price": 6.99
+          },
+          {
+            "name": "Miso Soup",
+            "description": "Traditional soybean soup with tofu and seaweed",
+            "price": 5.99
+          },
+          {
+            "name": "Gyoza",
+            "description": "Pan-fried pork and vegetable dumplings",
+            "price": 8.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Chirashi Don",
+            "description": "Assorted sashimi served over seasoned rice",
+            "price": 28.99
+          },
+          {
+            "name": "Omakase Sushi",
+            "description": "Chef's selection of premium nigiri sushi",
+            "price": 45.99
+          },
+          {
+            "name": "Tonkatsu Ramen",
+            "description": "Rich pork bone broth with chashu, egg, and vegetables",
+            "price": 18.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Matcha Ice Cream",
+            "description": "Green tea ice cream with red bean paste",
+            "price": 7.99
+          },
+          {
+            "name": "Mochi Selection",
+            "description": "Assorted rice cakes with various fillings",
+            "price": 8.99
+          }
+        ]
+      }
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "El Ranchero",
       "location": "567 Spadina Ave, Toronto",
       "rating": 4.4,
       "capacity": 45,
       "theme": "Mexican",
-      "description": "A vibrant cantina with sizzling fajitas, tacos, and handcrafted margaritas."
+      "description": "El Ranchero brings the vibrant spirit of Mexico to Toronto with its colorful decor, hand-painted murals, and festive atmosphere. The restaurant features a dedicated tortilla station where fresh corn tortillas are made throughout the day. The bar, adorned with an impressive collection of tequilas and mezcals, offers craft cocktails and house-made sangria. Live mariachi bands perform on weekends, adding to the authentic Mexican experience.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Guacamole Fresco",
+            "description": "Fresh avocado dip with tomatoes, onions, and cilantro, served with tortilla chips",
+            "price": 12.99
+          },
+          {
+            "name": "Queso Fundido",
+            "description": "Melted cheese with chorizo and roasted peppers",
+            "price": 14.99
+          },
+          {
+            "name": "Sopa de Tortilla",
+            "description": "Traditional Mexican tortilla soup with avocado and cheese",
+            "price": 9.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Fajitas Mixtas",
+            "description": "Sizzling plate of grilled steak and chicken with peppers and onions",
+            "price": 27.99
+          },
+          {
+            "name": "Enchiladas Verdes",
+            "description": "Chicken enchiladas with green tomatillo sauce and queso fresco",
+            "price": 22.99
+          },
+          {
+            "name": "Pescado a la Veracruzana",
+            "description": "Grilled fish in Veracruz-style sauce with olives and capers",
+            "price": 25.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Churros con Chocolate",
+            "description": "Mexican fried pastry with cinnamon sugar and chocolate sauce",
+            "price": 8.99
+          },
+          {
+            "name": "Flan de Caramelo",
+            "description": "Traditional Mexican caramel custard",
+            "price": 7.99
+          }
+        ]
+      }
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Taste of Mumbai",
       "location": "890 Yonge St, Toronto",
       "rating": 4.9,
       "capacity": 70,
       "theme": "Indian",
-      "description": "A fusion of rich spices and flavors, featuring authentic Indian curries and naan."
+      "description": "Taste of Mumbai is a celebration of India's rich culinary heritage, featuring both traditional favorites and modern interpretations. The restaurant's elegant interior combines contemporary design with traditional Indian elements, including intricate medallion patterns and silk curtains. The open kitchen showcases the tandoor ovens where breads and kebabs are prepared. A dedicated spice room allows diners to learn about the various spices used in Indian cuisine.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Samosa Platter",
+            "description": "Crispy pastries filled with spiced potatoes and peas",
+            "price": 10.99
+          },
+          {
+            "name": "Tandoori Paneer Tikka",
+            "description": "Marinated and grilled cottage cheese with bell peppers",
+            "price": 14.99
+          },
+          {
+            "name": "Onion Bhaji",
+            "description": "Crispy spiced onion fritters with tamarind chutney",
+            "price": 9.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Butter Chicken",
+            "description": "Tandoori chicken in rich tomato-cream sauce",
+            "price": 24.99
+          },
+          {
+            "name": "Lamb Biryani",
+            "description": "Fragrant rice dish with tender lamb and aromatic spices",
+            "price": 26.99
+          },
+          {
+            "name": "Palak Paneer",
+            "description": "Cottage cheese in creamy spinach gravy",
+            "price": 19.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Gulab Jamun",
+            "description": "Sweet milk dumplings in rose-scented syrup",
+            "price": 7.99
+          },
+          {
+            "name": "Kulfi",
+            "description": "Traditional Indian ice cream with pistachios and cardamom",
+            "price": 8.99
+          }
+        ]
+      }
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Himalayan Delight",
       "location": "321 College St, Toronto",
       "rating": 4.7,
       "capacity": 50,
       "theme": "Tibetan",
-      "description": "Serving traditional Tibetan cuisine with hearty thukpa and delicious momo dumplings."
+      "description": "Himalayan Delight offers an authentic taste of Tibetan culture and cuisine in a peaceful, mountain-inspired setting. The restaurant's decor features traditional thangka paintings, prayer wheels, and photographs of the Tibetan landscape. The dining room is furnished with low tables and cushioned seating, creating an authentic atmosphere. A meditation corner with singing bowls adds to the tranquil ambiance.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Sha Momo",
+            "description": "Steamed beef dumplings with Tibetan spices",
+            "price": 13.99
+          },
+          {
+            "name": "Thenthuk Soup",
+            "description": "Hand-pulled noodle soup with vegetables",
+            "price": 11.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Shepta",
+            "description": "Stir-fried beef with flat noodles and vegetables",
+            "price": 24.99
+          },
+          {
+            "name": "Pak Sha Phing",
+            "description": "Glass noodles with vegetables in garlic sauce",
+            "price": 19.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Dresil",
+            "description": "Sweet rice with dried fruits and nuts",
+            "price": 8.99
+          },
+          {
+            "name": "Bhaktsa Marku",
+            "description": "Traditional sweet dough balls with butter and honey",
+            "price": 7.99
+          }
+        ]
+      }
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "The Greek Tavern",
       "location": "654 Bay St, Toronto",
       "rating": 4.6,
       "capacity": 55,
       "theme": "Greek",
-      "description": "Enjoy fresh Mediterranean flavors with souvlaki, gyros, and homemade baklava."
+      "description": "The Greek Tavern recreates the warmth and hospitality of the Mediterranean with its whitewashed walls, blue accents, and terracotta details. The restaurant features a beautiful courtyard with grape vines and olive trees, perfect for summer dining. Live bouzouki music on weekends creates an authentic Greek atmosphere. The open kitchen allows diners to watch the preparation of traditional dishes, including the spectacular flame-lit saganaki presentations.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Saganaki",
+            "description": "Flambéed Greek cheese with lemon",
+            "price": 14.99
+          },
+          {
+            "name": "Spanakopita",
+            "description": "Spinach and feta cheese in phyllo pastry",
+            "price": 12.99
+          },
+          {
+            "name": "Dolmades",
+            "description": "Grape leaves stuffed with rice and herbs",
+            "price": 11.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Moussaka",
+            "description": "Layered eggplant, ground beef, and béchamel sauce",
+            "price": 24.99
+          },
+          {
+            "name": "Souvlaki Platter",
+            "description": "Grilled meat skewers with rice, potatoes, and tzatziki",
+            "price": 26.99
+          },
+          {
+            "name": "Psari Plaki",
+            "description": "Baked fish with tomatoes, onions, and herbs",
+            "price": 28.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Baklava",
+            "description": "Layered phyllo pastry with nuts and honey",
+            "price": 8.99
+          },
+          {
+            "name": "Galaktoboureko",
+            "description": "Custard-filled phyllo pastry with syrup",
+            "price": 9.99
+          }
+        ]
+      }
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Casa de Tapas",
       "location": "987 Front St W, Toronto",
       "rating": 4.5,
       "capacity": 65,
       "theme": "Spanish",
-      "description": "A lively tapas bar offering delicious Spanish small plates and fine wines."
+      "description": "Casa de Tapas brings the lively atmosphere of a Spanish tapas bar to Toronto. The vibrant space features exposed brick walls adorned with vintage Spanish posters, a long communal table for shared dining, and an authentic jamón carving station. The bar showcases an extensive collection of Spanish wines and sherries. On weekend evenings, live flamenco performances add to the authentic Spanish ambiance.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Patatas Bravas",
+            "description": "Crispy potatoes with spicy tomato sauce and aioli",
+            "price": 9.99
+          },
+          {
+            "name": "Jamón Ibérico",
+            "description": "Premium Spanish cured ham with tomato bread",
+            "price": 18.99
+          },
+          {
+            "name": "Gambas al Ajillo",
+            "description": "Garlic shrimp in olive oil",
+            "price": 15.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Paella Valenciana",
+            "description": "Traditional rice dish with seafood, chicken, and chorizo",
+            "price": 32.99
+          },
+          {
+            "name": "Cochinillo Asado",
+            "description": "Roasted suckling pig with potatoes",
+            "price": 34.99
+          },
+          {
+            "name": "Pescado a la Sal",
+            "description": "Whole fish baked in sea salt crust",
+            "price": 29.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Churros con Chocolate",
+            "description": "Spanish fried dough with thick hot chocolate",
+            "price": 8.99
+          },
+          {
+            "name": "Crema Catalana",
+            "description": "Spanish style crème brûlée with orange zest",
+            "price": 9.99
+          }
+        ]
+      }
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Seoul Garden",
       "location": "111 Richmond St E, Toronto",
       "rating": 4.8,
       "capacity": 60,
       "theme": "Korean",
-      "description": "A cozy spot for authentic Korean BBQ, bibimbap, and spicy kimchi stew."
+      "description": "Seoul Garden offers an authentic Korean dining experience with modern flair. Each table features a built-in Korean BBQ grill, allowing guests to cook their own meats to perfection. The sleek interior combines traditional Korean elements with contemporary design, including private dining rooms with floor seating. A dedicated kimchi room showcases the restaurant's house-made varieties, while K-pop music videos add to the modern Korean atmosphere.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Haemul Pajeon",
+            "description": "Seafood and green onion pancake",
+            "price": 14.99
+          },
+          {
+            "name": "Mandoo Guk",
+            "description": "Dumpling soup with beef broth",
+            "price": 12.99
+          },
+          {
+            "name": "Japchae",
+            "description": "Sweet potato noodles with vegetables",
+            "price": 13.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Galbi",
+            "description": "Marinated beef short ribs for BBQ",
+            "price": 32.99
+          },
+          {
+            "name": "Dolsot Bibimbap",
+            "description": "Hot stone bowl rice with vegetables and egg",
+            "price": 24.99
+          },
+          {
+            "name": "Sundubu Jjigae",
+            "description": "Soft tofu stew with seafood",
+            "price": 22.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Bingsu",
+            "description": "Shaved ice with red beans and mochi",
+            "price": 12.99
+          },
+          {
+            "name": "Hotteok",
+            "description": "Sweet filled Korean pancake",
+            "price": 8.99
+          }
+        ]
+      }
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Pho Saigon",
       "location": "222 Bathurst St, Toronto",
       "rating": 4.7,
       "capacity": 45,
       "theme": "Vietnamese",
-      "description": "A hidden gem specializing in flavorful pho and crispy banh mi sandwiches."
+      "description": "Pho Saigon brings the vibrant street food culture of Vietnam to Toronto. The restaurant's modern interior features Vietnamese art, vintage photographs of Saigon, and comfortable booth seating. The open kitchen fills the space with aromatic scents of fresh herbs and simmering broths. A traditional coffee drip station showcases the art of Vietnamese coffee making, while hanging lanterns create a warm, authentic atmosphere.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Goi Cuon",
+            "description": "Fresh rice paper rolls with shrimp, herbs, and peanut sauce",
+            "price": 8.99
+          },
+          {
+            "name": "Cha Gio",
+            "description": "Crispy Vietnamese spring rolls with nuoc cham",
+            "price": 9.99
+          },
+          {
+            "name": "Banh Xeo",
+            "description": "Crispy Vietnamese crepe with shrimp and bean sprouts",
+            "price": 12.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Pho Dac Biet",
+            "description": "Special beef noodle soup with various cuts and herbs",
+            "price": 16.99
+          },
+          {
+            "name": "Bun Thit Nuong",
+            "description": "Grilled lemongrass pork with vermicelli noodles",
+            "price": 18.99
+          },
+          {
+            "name": "Ca Kho To",
+            "description": "Caramelized fish in clay pot with rice",
+            "price": 22.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Che Ba Mau",
+            "description": "Three-color dessert with beans, jelly, and coconut milk",
+            "price": 7.99
+          },
+          {
+            "name": "Banh Flan",
+            "description": "Vietnamese coffee caramel custard",
+            "price": 6.99
+          }
+        ]
+      }
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Marrakech Magic",
       "location": "333 Adelaide St W, Toronto",
       "rating": 4.6,
       "capacity": 50,
       "theme": "Moroccan",
-      "description": "A mystical Moroccan escape featuring slow-cooked tagines and aromatic mint tea."
+      "description": "Step into an exotic Moroccan palace at Marrakech Magic, where intricate mosaic tiles, flowing fountains, and colorful lanterns create an authentic atmosphere. Low cushioned seating surrounds traditional brass tables, while private dining areas feature billowing silk curtains. The restaurant offers traditional hand-washing ceremonies before meals and features live belly dancing performances on weekends.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Harira",
+            "description": "Traditional Moroccan soup with lentils and chickpeas",
+            "price": 9.99
+          },
+          {
+            "name": "Zaalouk",
+            "description": "Roasted eggplant dip with warm pita",
+            "price": 11.99
+          },
+          {
+            "name": "Bisteeya Roll",
+            "description": "Phyllo roll with spiced chicken and almonds",
+            "price": 13.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Lamb Tagine",
+            "description": "Slow-cooked lamb with apricots and almonds",
+            "price": 28.99
+          },
+          {
+            "name": "Couscous Royale",
+            "description": "Mixed meat couscous with vegetables and chickpeas",
+            "price": 26.99
+          },
+          {
+            "name": "Fish Chermoula",
+            "description": "Marinated fish with herbs and preserved lemon",
+            "price": 24.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Orange Blossom Baklava",
+            "description": "Layered pastry with almonds and orange blossom syrup",
+            "price": 8.99
+          },
+          {
+            "name": "Mint Tea Service",
+            "description": "Traditional mint tea with assorted Moroccan cookies",
+            "price": 9.99
+          }
+        ]
+      }
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Berlin Bratwurst",
       "location": "444 Parliament St, Toronto",
       "rating": 4.4,
       "capacity": 48,
       "theme": "German",
-      "description": "A lively beer hall serving authentic bratwurst, schnitzel, and craft German beers."
+      "description": "Berlin Bratwurst recreates the atmosphere of a traditional German beer hall with long communal tables, rustic wooden decor, and authentic beer steins. The restaurant features a dedicated wurst kitchen where traditional sausages are made in-house. An extensive selection of German beers on tap and regular Oktoberfest celebrations make this a lively destination for authentic German dining.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Pretzel & Obatzda",
+            "description": "Fresh-baked pretzel with Bavarian cheese spread",
+            "price": 9.99
+          },
+          {
+            "name": "Kartoffelpuffer",
+            "description": "Crispy potato pancakes with apple sauce",
+            "price": 11.99
+          },
+          {
+            "name": "Flammkuchen",
+            "description": "German-style flatbread with bacon and onions",
+            "price": 13.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Schweinshaxe",
+            "description": "Crispy pork knuckle with sauerkraut and potatoes",
+            "price": 28.99
+          },
+          {
+            "name": "Wurst Platter",
+            "description": "Assorted German sausages with mustards and sides",
+            "price": 26.99
+          },
+          {
+            "name": "Jägerschnitzel",
+            "description": "Breaded pork cutlet with mushroom sauce",
+            "price": 24.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Apfelstrudel",
+            "description": "Warm apple strudel with vanilla sauce",
+            "price": 8.99
+          },
+          {
+            "name": "Schwarzwälder Kirschtorte",
+            "description": "Black Forest cake with cherries and cream",
+            "price": 9.99
+          }
+        ]
+      }
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Peruvian Paradise",
       "location": "555 Queen St W, Toronto",
       "rating": 4.9,
       "capacity": 70,
       "theme": "Peruvian",
-      "description": "A taste of the Andes with ceviche, lomo saltado, and pisco sours."
+      "description": "Peruvian Paradise showcases the diverse flavors of Peru in a contemporary setting. Colorful textiles and Andean artwork adorn the walls, while an open ceviche bar allows guests to watch the preparation of fresh seafood dishes. The restaurant features a pisco bar specializing in craft cocktails and hosts regular live music performances featuring traditional Peruvian instruments.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Ceviche Mixto",
+            "description": "Mixed seafood ceviche with classic leche de tigre",
+            "price": 16.99
+          },
+          {
+            "name": "Anticuchos",
+            "description": "Grilled beef heart skewers with aji sauce",
+            "price": 14.99
+          },
+          {
+            "name": "Papa a la Huancaina",
+            "description": "Potatoes with spicy cheese sauce",
+            "price": 12.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Lomo Saltado",
+            "description": "Stir-fried beef with onions, tomatoes, and fries",
+            "price": 26.99
+          },
+          {
+            "name": "Aji de Gallina",
+            "description": "Shredded chicken in creamy aji amarillo sauce",
+            "price": 24.99
+          },
+          {
+            "name": "Arroz con Mariscos",
+            "description": "Peruvian-style seafood paella",
+            "price": 28.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Picarones",
+            "description": "Peruvian pumpkin and sweet potato doughnuts",
+            "price": 8.99
+          },
+          {
+            "name": "Suspiro a la Limeña",
+            "description": "Dulce de leche mousse with meringue",
+            "price": 9.99
+          }
+        ]
+      }
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Nordic Feast",
       "location": "666 Jarvis St, Toronto",
       "rating": 4.7,
       "capacity": 60,
       "theme": "Scandinavian",
-      "description": "Minimalist yet flavorful dishes inspired by the forests and fjords of Scandinavia."
+      "description": "Nordic Feast embodies Scandinavian minimalism with its clean lines, natural materials, and subtle lighting. The restaurant features a dramatic ceiling installation inspired by the Northern Lights, while large windows flood the space with natural light. A dedicated aquavit bar and open kitchen with a wood-fired oven complete the authentic Nordic experience.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Gravlax",
+            "description": "House-cured salmon with mustard-dill sauce",
+            "price": 15.99
+          },
+          {
+            "name": "Smörrebröd Selection",
+            "description": "Assorted open-faced Danish sandwiches",
+            "price": 16.99
+          },
+          {
+            "name": "Swedish Meatballs",
+            "description": "Classic meatballs with lingonberry jam",
+            "price": 13.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Arctic Char",
+            "description": "Pan-seared char with dill butter sauce",
+            "price": 32.99
+          },
+          {
+            "name": "Reindeer Steak",
+            "description": "Grilled reindeer with root vegetables",
+            "price": 38.99
+          },
+          {
+            "name": "Norwegian Bacalao",
+            "description": "Salt cod stew with potatoes and tomatoes",
+            "price": 29.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Krumkake",
+            "description": "Norwegian waffle cookies with cream",
+            "price": 8.99
+          },
+          {
+            "name": "Cloudberry Parfait",
+            "description": "Frozen cloudberry dessert with almond crumble",
+            "price": 10.99
+          }
+        ]
+      }
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Cuban Flavors",
       "location": "777 Danforth Ave, Toronto",
       "rating": 4.6,
       "capacity": 55,
       "theme": "Cuban",
-      "description": "A lively Cuban eatery with delicious ropa vieja and mojitos."
+      "description": "Cuban Flavors transports guests to Old Havana with its vibrant colonial-style decor, vintage photographs, and palm fronds swaying to the rhythm of salsa music. The restaurant features a classic 1950s-inspired bar specializing in mojitos and Cuba libres. A cigar lounge offers a curated selection of fine Cuban cigars, while the weekend brings live salsa bands and dance performances.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Croquetas de Jamón",
+            "description": "Ham croquettes with Cuban mojo sauce",
+            "price": 11.99
+          },
+          {
+            "name": "Sopa de Frijoles Negros",
+            "description": "Traditional Cuban black bean soup",
+            "price": 9.99
+          },
+          {
+            "name": "Tostones Rellenos",
+            "description": "Stuffed plantain cups with garlic shrimp",
+            "price": 13.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Ropa Vieja",
+            "description": "Shredded beef in tomato sauce with peppers and onions",
+            "price": 24.99
+          },
+          {
+            "name": "Lechón Asado",
+            "description": "Slow-roasted marinated pork with mojo sauce",
+            "price": 26.99
+          },
+          {
+            "name": "Camarones Enchilados",
+            "description": "Creole-style shrimp in spicy tomato sauce",
+            "price": 28.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Flan Cubano",
+            "description": "Classic Cuban caramel custard",
+            "price": 8.99
+          },
+          {
+            "name": "Arroz con Leche",
+            "description": "Cuban-style rice pudding with cinnamon",
+            "price": 7.99
+          }
+        ]
+      }
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Thai Orchid",
       "location": "888 Ossington Ave, Toronto",
       "rating": 4.8,
       "capacity": 65,
       "theme": "Thai",
-      "description": "Aromatic curries, spicy pad Thai, and refreshing Thai iced tea."
+      "description": "Thai Orchid creates an elegant Thai dining experience with its orchid-filled interior, traditional silk tapestries, and ornate carved woodwork. The restaurant features a dramatic open kitchen where diners can watch the wok masters at work. A dedicated curry station fills the air with aromatic spices, while the bar specializes in creative Thai-inspired cocktails using fresh tropical fruits.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Tod Mun Pla",
+            "description": "Thai fish cakes with cucumber relish",
+            "price": 12.99
+          },
+          {
+            "name": "Som Tum",
+            "description": "Green papaya salad with peanuts and dried shrimp",
+            "price": 13.99
+          },
+          {
+            "name": "Satay Gai",
+            "description": "Grilled chicken skewers with peanut sauce",
+            "price": 11.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Gaeng Massaman",
+            "description": "Slow-cooked beef massaman curry with potatoes",
+            "price": 23.99
+          },
+          {
+            "name": "Pad Kra Pao",
+            "description": "Stir-fried minced chicken with holy basil",
+            "price": 21.99
+          },
+          {
+            "name": "Pla Neung Manao",
+            "description": "Steamed whole fish with lime and chili",
+            "price": 32.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Khao Niao Mamuang",
+            "description": "Mango with sticky rice and coconut cream",
+            "price": 9.99
+          },
+          {
+            "name": "Tab Tim Grob",
+            "description": "Water chestnuts in coconut milk",
+            "price": 8.99
+          }
+        ]
+      }
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Brazilian Churrasco",
       "location": "999 St. Clair Ave W, Toronto",
       "rating": 4.9,
       "capacity": 75,
       "theme": "Brazilian",
-      "description": "An authentic churrascaria with an all-you-can-eat selection of grilled meats."
+      "description": "Brazilian Churrasco brings the authentic rodizio experience to Toronto with its impressive grill station where gaucho chefs prepare various cuts of meat. The restaurant features a stunning salad bar designed like a Brazilian marketplace, complete with traditional tiles and tropical plants. Live Brazilian music and carnival-themed decor create a festive atmosphere.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Pão de Queijo",
+            "description": "Brazilian cheese bread rolls",
+            "price": 8.99
+          },
+          {
+            "name": "Coxinha",
+            "description": "Chicken croquettes with catupiry cheese",
+            "price": 11.99
+          },
+          {
+            "name": "Salpicão",
+            "description": "Brazilian chicken salad with apple and raisins",
+            "price": 12.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Rodizio Completo",
+            "description": "All-you-can-eat selection of grilled meats",
+            "price": 49.99
+          },
+          {
+            "name": "Feijoada",
+            "description": "Traditional black bean stew with pork",
+            "price": 28.99
+          },
+          {
+            "name": "Moqueca de Peixe",
+            "description": "Fish stew in coconut milk with dendê oil",
+            "price": 32.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Pudim de Leite",
+            "description": "Brazilian-style flan with caramel sauce",
+            "price": 9.99
+          },
+          {
+            "name": "Brigadeiros",
+            "description": "Chocolate truffle balls with sprinkles",
+            "price": 7.99
+          }
+        ]
+      }
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Ethiopian Essence",
       "location": "1010 College St, Toronto",
       "rating": 4.7,
       "capacity": 50,
       "theme": "Ethiopian",
-      "description": "Injera, spicy stews, and a traditional Ethiopian coffee ceremony."
+      "description": "Ethiopian Essence offers an authentic dining experience with traditional mesob tables and hand-woven baskets. The restaurant features a coffee ceremony area where traditional Ethiopian coffee is roasted and brewed. Colorful Ethiopian artwork and artifacts adorn the walls, while the aromatic scent of berbere and other spices fills the air.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Sambusa",
+            "description": "Crispy pastries filled with lentils or meat",
+            "price": 9.99
+          },
+          {
+            "name": "Fitfit",
+            "description": "Torn injera mixed with tomatoes and berbere",
+            "price": 8.99
+          },
+          {
+            "name": "Azifa",
+            "description": "Green lentil salad with Ethiopian spices",
+            "price": 10.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Doro Wat",
+            "description": "Spicy chicken stew with boiled egg",
+            "price": 24.99
+          },
+          {
+            "name": "Yebeg Tibs",
+            "description": "Sautéed lamb with peppers and onions",
+            "price": 26.99
+          },
+          {
+            "name": "Beyaynetu",
+            "description": "Combination of vegetarian dishes with injera",
+            "price": 22.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Dabo",
+            "description": "Ethiopian honey bread with spiced butter",
+            "price": 7.99
+          },
+          {
+            "name": "Coffee Ceremony",
+            "description": "Traditional coffee service with popcorn",
+            "price": 12.99
+          }
+        ]
+      }
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Persian Pearl",
       "location": "1111 Eglinton Ave E, Toronto",
       "rating": 4.5,
       "capacity": 55,
       "theme": "Persian",
-      "description": "A royal Persian dining experience with kebabs, saffron rice, and pomegranate stews."
+      "description": "Persian Pearl recreates the grandeur of ancient Persia with its intricate mosaics, Persian carpets, and elegant fountain centerpiece. The restaurant features a traditional clay oven for bread-making and a charcoal grill for kebabs. Hand-painted miniatures and calligraphy adorn the walls, while soft traditional music creates an authentic atmosphere.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Kashk-e Bademjan",
+            "description": "Eggplant dip with whey and mint",
+            "price": 11.99
+          },
+          {
+            "name": "Mirza Ghasemi",
+            "description": "Smoked eggplant with eggs and garlic",
+            "price": 12.99
+          },
+          {
+            "name": "Ash-e Reshteh",
+            "description": "Persian noodle soup with herbs and legumes",
+            "price": 10.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Koobideh Kebab",
+            "description": "Ground beef kebab with saffron rice",
+            "price": 24.99
+          },
+          {
+            "name": "Ghormeh Sabzi",
+            "description": "Herb stew with beef and kidney beans",
+            "price": 26.99
+          },
+          {
+            "name": "Zereshk Polo ba Morgh",
+            "description": "Barberry rice with saffron chicken",
+            "price": 28.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Sholeh Zard",
+            "description": "Saffron rice pudding with almonds",
+            "price": 8.99
+          },
+          {
+            "name": "Faloodeh",
+            "description": "Persian frozen dessert with rose water",
+            "price": 9.99
+          }
+        ]
+      }
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Kathmandu Restaurant",
       "location": "5647 Bloor St E, Toronto",
       "rating": 4.8,
       "capacity": 50,
       "theme": "Nepali",
-      "description": "Best place to find Jhol Momo in city, also try thier Samosa Chat and buffet menu only on weekdays."
+      "description": "Kathmandu Restaurant offers an authentic slice of Nepal with its traditional decor featuring prayer flags, brass sculptures, and Himalayan art. The restaurant boasts a dedicated momo station where diners can watch the intricate dumpling-making process. Prayer wheels and traditional instruments create an immersive atmosphere, while the aroma of Himalayan spices fills the air.",
+      "menu": {
+        "Starter": [
+          {
+            "name": "Jhol Momo",
+            "description": "Steamed dumplings in spicy broth",
+            "price": 13.99
+          },
+          {
+            "name": "Samosa Chat",
+            "description": "Crispy samosas with yogurt and tamarind",
+            "price": 11.99
+          },
+          {
+            "name": "Himalayan Mixed Platter",
+            "description": "Assortment of traditional appetizers",
+            "price": 16.99
+          }
+        ],
+        "MainCourse": [
+          {
+            "name": "Thakali Thali Set",
+            "description": "Traditional Nepali meal with various dishes",
+            "price": 25.99
+          },
+          {
+            "name": "Himalayan Curry",
+            "description": "Mountain-style curry with your choice of protein",
+            "price": 23.99
+          },
+          {
+            "name": "Gorkhali Lamb",
+            "description": "Spicy lamb curry with mountain herbs",
+            "price": 27.99
+          }
+        ],
+        "Dessert": [
+          {
+            "name": "Yomari",
+            "description": "Sweet rice dumplings with chocolate",
+            "price": 8.99
+          },
+          {
+            "name": "Kheer",
+            "description": "Nepali-style rice pudding with cardamom",
+            "price": 7.99
+          }
+        ]
+      }
     }
   ]
-} 
+}
