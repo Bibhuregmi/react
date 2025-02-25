@@ -7,7 +7,7 @@ const NavBar = () => {
 
   return (
     <>  
-        <div className='flex bg-emerald-600 px-6 py-6 shadow-md mb-10'>
+        <div className='flex bg-emerald-600 px-6 py-6 shadow-md'>
                 <NavLink to = '/' className = 'flex justify-center'>
                     <img
                         className='h-12 w-auto mx-2 my-2 border-2 border-emerald-300 bg-white rounded-full px-4 py-4'
@@ -24,6 +24,10 @@ const NavBar = () => {
                 <NavLink  to= '/restaurants'
                     className= {linkClass}
                 > Restaurants
+                </NavLink>
+                <NavLink  to= '/add-restaurant'
+                    className= {linkClass}
+                > Add Restaurant
                 </NavLink>
                 <NavLink  to= '/reservation'
                     className= {linkClass}

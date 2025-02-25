@@ -40,7 +40,7 @@ const MainContent = () => {
                     </h3>
                     <Link 
                         className='px-3 py-2 hover:bg-white hover:text-emerald-600 rounded-md opacity-0 group-hover:opacity-100 w-1/2 block ml-auto  mr-auto font-semibold cursor-pointer'
-                        to = '/reservation'    
+                        to = '/add-restaurant'    
                     >
                         Add Restaurant
                     </Link>
